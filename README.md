@@ -40,11 +40,11 @@ Resolveremos cada caso como detectives 🕵️🕵️, y resolveremos el caso de
 | 1 | 0 | 1 | 1 | Adelante | 0 | 0 | Avanza Normal. |
 | 1 | 0 | 1 | 0 | Adelante | 0 | 0 | Avanza Normal. |
 | 1 | 0 | 0 | 1 | Adelante | 0 | 0 | Avanza Normal. |
-| 0 | 1 | 1 | 1 | Freno    | 1 | 1 | Dobla izq.     |
-| 0 | 1 | 1 | 0 | Freno    | 1 | 1 | Dobla izq.     |
-| 0 | 1 | 0 | 1 | Freno    | 1 | 1 | Dobla izq.     |
-| 0 | 1 | 0 | 0 | Freno    | 1 | 1 | Dobla izq.     |
-| 0 | 0 | 1 | 1 | Freno    | 1 | 0 | Frena          |
-| 0 | 0 | 1 | 0 | Freno    | 1 | 0 | Frena          |
-| 0 | 0 | 0 | 1 | Freno    | 1 | 0 | Frena          |
-| 0 | 0 | 0 | 0 | Freno    | 1 | 0 | Frena          |
+| 0 | 1 | 1 | 1 | Freno    | 1 | 1 | Obstáculo Frontal: Gira Izq.     |
+| 0 | 1 | 1 | 0 | Freno    | 1 | 1 | Obstáculo Frontal/Trasero: Gira Izq.     |
+| 0 | 1 | 0 | 1 | Freno    | 1 | 1 | Obstáculo Frontal/Derecho: Gira Izq.     |
+| 0 | 1 | 0 | 0 | Freno    | 1 | 1 | Obstáculo Frontal/Derecho/Trasero: Gira Izq.     |
+| 0 | 0 | 1 | 1 | Freno    | 1 | 0 | Obstáculo Frontal/Izquierdo: Frena.          |
+| 0 | 0 | 1 | 0 | Freno    | 1 | 0 | Obstáculo Frontal/Izquierdo/Trasero: Frena.          |
+| 0 | 0 | 0 | 1 | Freno    | 1 | 0 | Obstáculo Frontal/Izquierdo/Derecho: Frena (Atrapado).          |
+| 0 | 0 | 0 | 0 | Freno    | 1 | 0 | Obstáculo Total: Frena (Atrapado).          |
