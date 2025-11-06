@@ -1,5 +1,5 @@
-# Arduino_Car_ITFN
-It's the future now.
+# 🤖 Arduino_Car_ITFN: Inteligencia Artificial en un Coche de Control Remoto
+## 🚀 It's the future now.
 
 ### Análisis de la arquitectura
 El artículo describe una arquitectura simple pero muy efectiva para una primera aproximación al control basado en "IA" (en este caso, una red neuronal muy sencilla que actúa como un clasificador o sistema de reglas):
@@ -48,3 +48,5 @@ Resolveremos cada caso como detectives 🕵️🕵️, y resolveremos el caso de
 | 0 | 0 | 1 | 0 | Freno    | 1 | 0 | Obstáculo Frontal/Izquierdo/Trasero: Frena.          |
 | 0 | 0 | 0 | 1 | Freno    | 1 | 0 | Obstáculo Frontal/Izquierdo/Derecho: Frena (Atrapado).          |
 | 0 | 0 | 0 | 0 | Freno    | 1 | 0 | Obstáculo Total: Frena (Atrapado).          |
+
+webgrafía del artículo: 'https://www.aprendemachinelearning.com/programa-un-coche-arduino-con-inteligencia-artificial/'
